@@ -1,0 +1,39 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+}
+
+.overlay-image {
+    width: 15%;
+    z-index: 10;
+    margin-right: auto;
+    left: 40px;
+}
+
+nav {
+    z-index: 10;
+    display: flex;
+    position: relative;
+    height: auto;
+    background-color: #053610;
+    width: auto;
+    justify-content: right;
+    padding: 25px;
+    padding-right: 5%;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.nav a {
+    z-index: 10;
+    font-family: Tahoma;
+    color: rgb(181, 17, 17);
+    font-size: 30px;
+}
